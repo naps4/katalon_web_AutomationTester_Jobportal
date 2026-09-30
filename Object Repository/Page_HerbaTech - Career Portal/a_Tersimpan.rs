@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Tersimpan</name>
+   <tag></tag>
+   <elementGuidId>6a2cbc94-5693-4b3d-8a48-82586c59d417</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-item ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-link ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.nav-item:nth-child(3) .nav-link</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@href = 'http://127.0.0.1:8000/seeker/saved-jobs' and (text() = 'Tersimpan' or . = 'Tersimpan')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Tersimpan&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>228df947-3f96-4d2d-b3be-5c4d1820bf67</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link </value>
+      <webElementGuid>e4bce021-ac16-426b-81a5-e66064e3b20e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://127.0.0.1:8000/seeker/saved-jobs</value>
+      <webElementGuid>ade8df88-44d9-4b49-8f57-c85cedaae525</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tersimpan</value>
+      <webElementGuid>7f95b69d-259a-41a1-a211-480822e1d568</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-6485ef1c9fe73f28ee885e932868d2cc</value>
+      <webElementGuid>8a600ff0-5490-4941-821c-063671cf4d09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-item ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-link ')]</value>
+      <webElementGuid>f60271fc-7e43-491a-bc05-b980f0f40f64</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-item ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-link ')]</value>
+      <webElementGuid>33595907-cc64-40e5-a0d0-802331456399</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'http://127.0.0.1:8000/seeker/saved-jobs' and (text() = 'Tersimpan' or . = 'Tersimpan')]</value>
+      <webElementGuid>0473bbab-9873-4645-950f-09a549e3a640</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
