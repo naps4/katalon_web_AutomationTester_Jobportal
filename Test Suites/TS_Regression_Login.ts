@@ -14,31 +14,31 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>1068260a-b55a-42fc-ad89-e7583f02e591</testSuiteGuid>
    <testCaseLink>
-      <guid>35c37f27-1a13-46bf-9794-4f2f5578cf4f</guid>
+      <guid>94f28562-8004-42a4-8ac4-6df7129fc24a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC02_Login_Seeker</testCaseId>
+      <testCaseId>Test Cases/access_control/TC05_Akses_Per_Role</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a3cbc6db-cd94-4302-9a3f-36d231f8225f</guid>
+      <guid>9126f2ba-523b-416f-bc28-84a5b0b33512</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC05_Login_PasswordSalah</testCaseId>
+      <testCaseId>Test Cases/Auth/TC01_Login_Seeker_Valid</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e0b0fc18-51f5-42ae-9eee-f8a4781914e9</guid>
+      <guid>6633f3f9-1a37-4bd4-af53-8c818c55aba2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_Login_DataDriven</testCaseId>
+      <testCaseId>Test Cases/Auth/TC02_Login_PasswordSalah</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a3e7afdb-72bf-4345-829d-a2802d12316d</guid>
+      <guid>fe7332bd-829b-42ae-b3d5-268c96985c35</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC01_Lihat_Daftar_Lowongan</testCaseId>
+      <testCaseId>Test Cases/jobs/TC04_Simpan_Lowongan</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

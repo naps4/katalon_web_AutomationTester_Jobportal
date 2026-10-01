@@ -13,21 +13,23 @@
    <data>seeker%40jobportal.test passwordsalah .*login.*</data>
    <data>company%40jobportal.test password .*company%2Fdashboard.*</data>
    <data>company%40jobportal.test passwordsalah .*login.*</data>
+   <data>admin%40jobportal.test password .*admin%2Fdashboard.*</data>
+   <data>admin%40jobportal.test passwordsalah .*admin%2Fdashboard.*</data>
    <data>null null .*login.*</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>email</name>
-      <size>5</size>
+      <size>7</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>password</name>
-      <size>5</size>
+      <size>7</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>expected</name>
-      <size>5</size>
+      <size>7</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
