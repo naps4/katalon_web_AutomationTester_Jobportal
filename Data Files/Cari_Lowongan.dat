@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Cari_Lowongan</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>bb68d090-daa6-407d-8906-9bfc1c3da522</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>developer+ null null Software+Developer null</data>
+   <data>developer+1 null null Software+Developer+1 Software+Developer+2</data>
+   <data>developer+2 null null Software+Developer+2 Software+Developer+1</data>
+   <data>perawat null null null Software+Developer</data>
+   <data>null 2 null Software+Developer+9 Software+Developer+1</data>
+   <data>null null 2 Software+Developer+ Software+Developer+9</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>keyword</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>location</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>category</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>harapan_ada</name>
+      <size>6</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>harapan_tidak_ada</name>
+      <size>6</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

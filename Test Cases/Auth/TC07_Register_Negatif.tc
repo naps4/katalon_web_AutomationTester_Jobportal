@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC07_Register_Negatif</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>14c4a7f3-00e3-4c3a-913b-3aaa3b99d20b</testCaseGuid>
+</TestCaseEntity>
