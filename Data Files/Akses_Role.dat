@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Akses_Role</name>
+   <tag></tag>
+   <connectionProperties/>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>ec03d996-40c0-45ad-9cb5-c73c1903f486</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>null null %2Fseeker%2Fdashboard denied</data>
+   <data>null null %2Fadmin%2Fdashboard denied</data>
+   <data>null null %2Fcompany%2Fdashboard denied</data>
+   <data>seeker%40jobportal.test password %2Fseeker%2Fdashboard %09allowed</data>
+   <data>seeker%40jobportal.test password %2Fadmin%2Fdashboard denied</data>
+   <data>seeker%40jobportal.test password %2Fcompany%2Fdashboard denied</data>
+   <data>company%40jobportal.test password %2Fcompany%2Fdashboard %09allowed</data>
+   <data>company%40jobportal.test password %2Fseeker%2Fdashboard denied</data>
+   <data>company%40jobportal.test password %2Fadmin%2Fdashboard denied</data>
+   <data>admin%40jobportal.test password %2Fadmin%2Fdashboard %09allowed</data>
+   <data>admin%40jobportal.test password %2Fcompany%2Fdashboard denied</data>
+   <data>admin%40jobportal.test password %2Fseeker%2Fdashboard denied</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>email</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>password</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>path</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>hasil</name>
+      <size>12</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

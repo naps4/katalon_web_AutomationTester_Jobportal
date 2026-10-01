@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC05_Akses_Per_Role</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3515d508-1ecf-4122-b78b-8e7d6ff9671c</testCaseGuid>
+</TestCaseEntity>
