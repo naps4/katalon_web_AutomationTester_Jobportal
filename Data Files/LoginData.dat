@@ -14,7 +14,7 @@
    <data>company%40jobportal.test password .*company%2Fdashboard.*</data>
    <data>company%40jobportal.test passwordsalah .*login.*</data>
    <data>admin%40jobportal.test password .*admin%2Fdashboard.*</data>
-   <data>admin%40jobportal.test passwordsalah .*admin%2Fdashboard.*</data>
+   <data>admin%40jobportal.test passwordsalah .*login.*</data>
    <data>null null .*login.*</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
