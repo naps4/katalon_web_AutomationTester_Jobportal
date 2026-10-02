@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Masuk Sekarang</name>
+   <name>select_q3</name>
    <tag></tag>
-   <elementGuidId>575c0bbb-a265-4904-b306-ed959c97039e</elementGuidId>
+   <elementGuidId>7c47bff9-bc18-4947-895b-5fde37052a44</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.btn</value>
+         <value>[name=&quot;q3&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
+         <value>//*[@name = 'q3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Masuk Sekarang &quot;i]</value>
+         <value>select[name=&quot;q3&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -36,24 +28,24 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>a61344c7-9f00-4947-8b0d-c996392a75c1</webElementGuid>
+      <value>select</value>
+      <webElementGuid>420a51c5-1a9b-4212-a202-25445b3bdc0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>name</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>5aa34322-b097-46de-8fa7-36c20355432e</webElementGuid>
+      <value>q3</value>
+      <webElementGuid>614bf7e5-9da3-473c-9e13-5d9b3b982f8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-lg shadow-sm</value>
-      <webElementGuid>2cf171d2-bc53-4a88-86c2-5ad8f75f04c2</webElementGuid>
+      <value>form-select input-custom</value>
+      <webElementGuid>bbeb37d7-9adf-4ad2-a98b-6646b94bbef3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,44 +53,50 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                Masuk Sekarang 
-            </value>
-      <webElementGuid>925f5d86-6250-4f96-86cf-89826845d39a</webElementGuid>
+                                    Pilih jawaban...
+                                    Ya, saya bersedia (atau sudah berdomisili sama)
+                                    Tidak bersedia
+                                </value>
+      <webElementGuid>9ab42cad-9a66-4a3e-b22d-b9bdd388b846</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5889e8f4ab8798d244ecbbc51aa6e324</value>
-      <webElementGuid>55536a24-52f8-44b1-a230-5b3f806e3d51</webElementGuid>
+      <value>md5.v1-90a980e702b5fb569f07fc39f14665a5</value>
+      <webElementGuid>e56c9a2c-12b5-4911-8507-b5ce4802b8c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>c5aa8165-3244-4f0c-be65-31f21bffde52</webElementGuid>
+      <value>//*[@name = 'q3']</value>
+      <webElementGuid>b757c79c-8da2-42a0-ac98-bbe8c50afe9b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>973811b6-fbc2-41c9-bdb0-b330a79b0a3c</webElementGuid>
+      <value>//*[@name = 'q3']</value>
+      <webElementGuid>a96c8995-c6c4-430c-a456-4a10ef3799f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
-      <webElementGuid>c7fb9361-217b-4c42-a539-4eebdba4d843</webElementGuid>
+      <value>//select[@name = 'q3' and (text() = '
+                                    Pilih jawaban...
+                                    Ya, saya bersedia (atau sudah berdomisili sama)
+                                    Tidak bersedia
+                                ' or . = '
+                                    Pilih jawaban...
+                                    Ya, saya bersedia (atau sudah berdomisili sama)
+                                    Tidak bersedia
+                                ')]</value>
+      <webElementGuid>c73239d0-0b5d-44e1-a8a3-20fec04ab4b0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Masuk Sekarang</name>
+   <name>input_name</name>
    <tag></tag>
-   <elementGuidId>575c0bbb-a265-4904-b306-ed959c97039e</elementGuidId>
+   <elementGuidId>d50ea91c-1804-41c9-9737-3100ffa9d33a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.btn</value>
+         <value>[name=&quot;name&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
+         <value>//*[@name = 'name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Masuk Sekarang &quot;i]</value>
+         <value>input[name=&quot;name&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -36,69 +28,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>a61344c7-9f00-4947-8b0d-c996392a75c1</webElementGuid>
+      <value>input</value>
+      <webElementGuid>a215903d-eee8-4a2b-af5e-14610e36f59b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>5aa34322-b097-46de-8fa7-36c20355432e</webElementGuid>
+      <value>text</value>
+      <webElementGuid>b9ea4f34-c638-45bb-847c-11d34e184a1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>name</value>
+      <webElementGuid>b06b63ff-7058-4525-bfb5-9be8971c1509</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-lg shadow-sm</value>
-      <webElementGuid>2cf171d2-bc53-4a88-86c2-5ad8f75f04c2</webElementGuid>
+      <value>form-control input-style</value>
+      <webElementGuid>8aa00256-9fad-472e-87db-39eb93c594da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>value</name>
       <type>Main</type>
-      <value>
-                Masuk Sekarang 
-            </value>
-      <webElementGuid>925f5d86-6250-4f96-86cf-89826845d39a</webElementGuid>
+      <value>Nugroho Adi Pamungkas</value>
+      <webElementGuid>f8503299-0a56-46b7-bdc0-e934132fc953</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5889e8f4ab8798d244ecbbc51aa6e324</value>
-      <webElementGuid>55536a24-52f8-44b1-a230-5b3f806e3d51</webElementGuid>
+      <value>md5.v1-241f640238a623bac837de0d4b999dd1</value>
+      <webElementGuid>3e18694e-8f44-45d9-b07c-4ca25bd757e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>c5aa8165-3244-4f0c-be65-31f21bffde52</webElementGuid>
+      <value>//*[@name = 'name']</value>
+      <webElementGuid>a7dfa1e2-7c21-485d-a14a-5539ee4a687c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>973811b6-fbc2-41c9-bdb0-b330a79b0a3c</webElementGuid>
+      <value>//*[@name = 'name']</value>
+      <webElementGuid>0861c9cc-59a8-4f5f-8c36-8ab2ad9bbccd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
-      <webElementGuid>c7fb9361-217b-4c42-a539-4eebdba4d843</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'name']</value>
+      <webElementGuid>40aab52e-04c2-4dde-80a7-119c6ad8cbe5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

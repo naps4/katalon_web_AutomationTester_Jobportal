@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Masuk Sekarang</name>
+   <name>input_start_date_1</name>
    <tag></tag>
-   <elementGuidId>575c0bbb-a265-4904-b306-ed959c97039e</elementGuidId>
+   <elementGuidId>37d109a9-e974-45d0-9a97-6ad07b5c5704</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.btn</value>
+         <value>#modalEducation [name=&quot;start_date&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
+         <value>//*[@id = 'modalEducation']//*[@name = 'start_date']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Masuk Sekarang &quot;i]</value>
+         <value>#modalEducation input[name=&quot;start_date&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -36,69 +28,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>a61344c7-9f00-4947-8b0d-c996392a75c1</webElementGuid>
+      <value>input</value>
+      <webElementGuid>ecf53e2c-09fd-4e57-8b5c-1e2913c4c94c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>5aa34322-b097-46de-8fa7-36c20355432e</webElementGuid>
+      <value>date</value>
+      <webElementGuid>fa7fc3c2-8b89-47f5-bbec-86ba37ecb8c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>start_date</value>
+      <webElementGuid>6ef93b3b-a3df-45ff-8cb2-aa02845a6677</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-lg shadow-sm</value>
-      <webElementGuid>2cf171d2-bc53-4a88-86c2-5ad8f75f04c2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-                Masuk Sekarang 
-            </value>
-      <webElementGuid>925f5d86-6250-4f96-86cf-89826845d39a</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>73835ecf-f9da-4c12-8cb7-d11710e4bcc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5889e8f4ab8798d244ecbbc51aa6e324</value>
-      <webElementGuid>55536a24-52f8-44b1-a230-5b3f806e3d51</webElementGuid>
+      <value>md5.v1-ed44b49d9521e8f1b174be82e1596746</value>
+      <webElementGuid>6fea8554-27d5-4d35-8364-0db3a6f3ccad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>c5aa8165-3244-4f0c-be65-31f21bffde52</webElementGuid>
+      <value>//*[@id = 'modalEducation']//*[@name = 'start_date']</value>
+      <webElementGuid>8c277068-82c8-44f6-90f4-c950a6da4a21</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>973811b6-fbc2-41c9-bdb0-b330a79b0a3c</webElementGuid>
+      <value>//*[@id = 'modalEducation']//*[@name = 'start_date']</value>
+      <webElementGuid>c8c802b0-be0c-46c6-8d2c-154031285fd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
-      <webElementGuid>c7fb9361-217b-4c42-a539-4eebdba4d843</webElementGuid>
+      <value>//input[@type = 'date' and @name = 'start_date']</value>
+      <webElementGuid>63016b9a-e4a9-4a9b-a39c-8c67aaccc96a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

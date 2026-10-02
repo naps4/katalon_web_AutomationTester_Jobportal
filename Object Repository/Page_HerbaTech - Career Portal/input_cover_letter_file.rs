@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Masuk Sekarang</name>
+   <name>input_cover_letter_file</name>
    <tag></tag>
-   <elementGuidId>575c0bbb-a265-4904-b306-ed959c97039e</elementGuidId>
+   <elementGuidId>16c66e2b-aee6-4190-b281-5dd0b5610a7f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>.btn</value>
+         <value>[name=&quot;cover_letter_file&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
+         <value>//*[@name = 'cover_letter_file']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Masuk Sekarang &quot;i]</value>
+         <value>input[name=&quot;cover_letter_file&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -36,69 +28,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>a61344c7-9f00-4947-8b0d-c996392a75c1</webElementGuid>
+      <value>input</value>
+      <webElementGuid>1315ac41-c275-4908-9bb2-d4ff7b0b2530</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>5aa34322-b097-46de-8fa7-36c20355432e</webElementGuid>
+      <value>file</value>
+      <webElementGuid>3a8b7955-d4c3-48fd-953c-3ae0152658b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>cover_letter_file</value>
+      <webElementGuid>5e15c04a-0771-4229-a35f-1c5da25b761a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-lg shadow-sm</value>
-      <webElementGuid>2cf171d2-bc53-4a88-86c2-5ad8f75f04c2</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>
-                Masuk Sekarang 
-            </value>
-      <webElementGuid>925f5d86-6250-4f96-86cf-89826845d39a</webElementGuid>
+      <value>form-control input-custom</value>
+      <webElementGuid>e52e662a-bdda-4b7a-b0b1-7b503c0579e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5889e8f4ab8798d244ecbbc51aa6e324</value>
-      <webElementGuid>55536a24-52f8-44b1-a230-5b3f806e3d51</webElementGuid>
+      <value>md5.v1-268b5e25f11547450f9ba5e6dc7613d7</value>
+      <webElementGuid>c04e1c10-f567-4a7b-9f2c-ea3137332354</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>c5aa8165-3244-4f0c-be65-31f21bffde52</webElementGuid>
+      <value>//*[@name = 'cover_letter_file']</value>
+      <webElementGuid>fbd32a27-22b0-46aa-a4c4-0e55364ad7f4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>973811b6-fbc2-41c9-bdb0-b330a79b0a3c</webElementGuid>
+      <value>//*[@name = 'cover_letter_file']</value>
+      <webElementGuid>dc1475fc-94d3-422a-8335-88fe3d189ac0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
-      <webElementGuid>c7fb9361-217b-4c42-a539-4eebdba4d843</webElementGuid>
+      <value>//input[@type = 'file' and @name = 'cover_letter_file']</value>
+      <webElementGuid>af9f701e-c00e-4470-8834-3002cd683b13</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

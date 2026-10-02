@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_namecompany.com</name>
+   <name>input_resumeInput</name>
    <tag></tag>
-   <elementGuidId>db817ba4-5f75-4bfc-a143-8948b863f17b</elementGuidId>
+   <elementGuidId>0500adb4-65b8-42ce-9fd6-ac4ea84bfd81</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#email</value>
+         <value>#resumeInput</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'email']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'email' and @type = 'email' and @name = 'email' and @placeholder = 'name@company.com']</value>
+         <value>//*[@id = 'resumeInput']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;name@company.com&quot;i]</value>
+         <value>#resumeInput</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -33,86 +29,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6d47db2b-15ef-40ef-8470-af372b0d2b65</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>email</value>
-      <webElementGuid>32ecc3d2-d7c1-4560-9216-cac734506e17</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control </value>
-      <webElementGuid>85bf5089-c520-4686-9547-1b1ffa8fa918</webElementGuid>
+      <webElementGuid>d8482539-dfe4-421d-a8fc-d8dbf5a55f29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>cf66f690-1d20-40ab-b687-5cfbf1570619</webElementGuid>
+      <value>file</value>
+      <webElementGuid>dbfdb321-5b8e-4cca-89ce-2d7fd48644ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>9f17fbe8-c095-4511-97da-998fa9b1e27a</webElementGuid>
+      <value>resume</value>
+      <webElementGuid>c222bc0d-c247-45e8-8b6f-8e6f9ee20d25</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>class</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>0a2879c1-8067-47a2-96ee-a92809e28a2f</webElementGuid>
+      <value>d-none</value>
+      <webElementGuid>212fb138-ad91-459a-a5bd-8935f6869e0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>id</name>
       <type>Main</type>
-      <value>name@company.com</value>
-      <webElementGuid>00eb21f5-8a1e-4a84-a7b8-00c89b344f7c</webElementGuid>
+      <value>resumeInput</value>
+      <webElementGuid>c02dcec1-568a-47fd-b635-49ace79baed3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>this.form.submit()</value>
+      <webElementGuid>842d07e1-48cf-4eea-9aba-13e64ffbb32d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5b9ce64e1b01ab27ccfccd2252edf06f</value>
-      <webElementGuid>76635f6d-b252-4508-899b-bf40bd24d80e</webElementGuid>
+      <value>md5.v1-9ae643dae651596b554248d328b5d1ca</value>
+      <webElementGuid>c717e8ef-6ee0-4b91-b915-4ffd54fd3dee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id = 'email']</value>
-      <webElementGuid>f769e3f0-0c8c-4cd1-8cb4-4da762af29b8</webElementGuid>
+      <value>//*[@id = 'resumeInput']</value>
+      <webElementGuid>55cd340d-b833-44d8-ad2a-0d5a1569663f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id = 'email']</value>
-      <webElementGuid>370b2c68-0e24-4711-86bc-60ec3db054c5</webElementGuid>
+      <value>//*[@id = 'resumeInput']</value>
+      <webElementGuid>5e07c49e-a58e-42ba-9a85-b07bf5ccfdb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'email' and @type = 'email' and @name = 'email' and @placeholder = 'name@company.com']</value>
-      <webElementGuid>2a688dbc-c5a4-4789-ae38-6db2bac79cba</webElementGuid>
+      <value>//input[@type = 'file' and @name = 'resume' and @id = 'resumeInput']</value>
+      <webElementGuid>a5d77c7f-69dc-4f44-8177-2326967b21e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC14_Profil_Tambah_Hapus_Skill</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>04d11ea8-2297-49ab-9e28-65d47621fea6</testCaseGuid>
+</TestCaseEntity>

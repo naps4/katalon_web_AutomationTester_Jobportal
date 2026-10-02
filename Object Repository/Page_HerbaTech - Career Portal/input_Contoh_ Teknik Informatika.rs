@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_namecompany.com</name>
+   <name>input_Contoh_ Teknik Informatika</name>
    <tag></tag>
-   <elementGuidId>db817ba4-5f75-4bfc-a143-8948b863f17b</elementGuidId>
+   <elementGuidId>bb0a42af-c091-4850-ad7c-4b79a4669f38</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#email</value>
+         <value>[name=&quot;field_of_study&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'email']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'email' and @type = 'email' and @name = 'email' and @placeholder = 'name@company.com']</value>
+         <value>//*[@name = 'field_of_study']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;name@company.com&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Contoh: Teknik Informatika&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -33,86 +29,70 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>6d47db2b-15ef-40ef-8470-af372b0d2b65</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>email</value>
-      <webElementGuid>32ecc3d2-d7c1-4560-9216-cac734506e17</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control </value>
-      <webElementGuid>85bf5089-c520-4686-9547-1b1ffa8fa918</webElementGuid>
+      <webElementGuid>7fb108e4-8a5b-46b9-bf87-b241a5759501</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>cf66f690-1d20-40ab-b687-5cfbf1570619</webElementGuid>
+      <value>text</value>
+      <webElementGuid>23508177-b1c3-4ffe-ad05-e81908d397fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>9f17fbe8-c095-4511-97da-998fa9b1e27a</webElementGuid>
+      <value>field_of_study</value>
+      <webElementGuid>99d53997-4364-4cb2-8245-5897e10dbd9a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>class</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>0a2879c1-8067-47a2-96ee-a92809e28a2f</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>c02b507f-e71f-4ea6-8924-ccc9e1a0064c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>name@company.com</value>
-      <webElementGuid>00eb21f5-8a1e-4a84-a7b8-00c89b344f7c</webElementGuid>
+      <value>Contoh: Teknik Informatika</value>
+      <webElementGuid>d0748c87-5194-42d4-965f-82e2f86d3f42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5b9ce64e1b01ab27ccfccd2252edf06f</value>
-      <webElementGuid>76635f6d-b252-4508-899b-bf40bd24d80e</webElementGuid>
+      <value>md5.v1-8d6b59baae8b8b88f07b85de63deeed3</value>
+      <webElementGuid>c5100fd7-2d4e-4311-a550-a5e62b6efde9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id = 'email']</value>
-      <webElementGuid>f769e3f0-0c8c-4cd1-8cb4-4da762af29b8</webElementGuid>
+      <value>//*[@name = 'field_of_study']</value>
+      <webElementGuid>5c30ab15-b996-4ebf-b0ec-25b755e46413</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id = 'email']</value>
-      <webElementGuid>370b2c68-0e24-4711-86bc-60ec3db054c5</webElementGuid>
+      <value>//*[@name = 'field_of_study']</value>
+      <webElementGuid>5de97a43-a9ba-433e-99dd-5719d679f4ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'email' and @type = 'email' and @name = 'email' and @placeholder = 'name@company.com']</value>
-      <webElementGuid>2a688dbc-c5a4-4789-ae38-6db2bac79cba</webElementGuid>
+      <value>//input[@type = 'text' and @name = 'field_of_study' and @placeholder = 'Contoh: Teknik Informatika']</value>
+      <webElementGuid>a30002e9-9b64-429b-b38d-623a3c757395</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

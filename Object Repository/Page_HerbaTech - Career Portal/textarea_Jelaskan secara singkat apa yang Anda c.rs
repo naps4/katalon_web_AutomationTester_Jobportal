@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_namecompany.com</name>
+   <name>textarea_Jelaskan secara singkat apa yang Anda c</name>
    <tag></tag>
-   <elementGuidId>db817ba4-5f75-4bfc-a143-8948b863f17b</elementGuidId>
+   <elementGuidId>1106361e-62e1-4604-8142-745af1b33a0c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#email</value>
+         <value>[name=&quot;q7&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'email']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'email' and @type = 'email' and @name = 'email' and @placeholder = 'name@company.com']</value>
+         <value>//*[@name = 'q7']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;name@company.com&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Jelaskan secara singkat apa yang Anda capai dan bagaimana cara Anda meraihnya...&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,87 +28,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>6d47db2b-15ef-40ef-8470-af372b0d2b65</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>email</value>
-      <webElementGuid>32ecc3d2-d7c1-4560-9216-cac734506e17</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control </value>
-      <webElementGuid>85bf5089-c520-4686-9547-1b1ffa8fa918</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>email</value>
-      <webElementGuid>cf66f690-1d20-40ab-b687-5cfbf1570619</webElementGuid>
+      <value>textarea</value>
+      <webElementGuid>88afe1c7-6cb8-41d6-892e-3885626dbec8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>email</value>
-      <webElementGuid>9f17fbe8-c095-4511-97da-998fa9b1e27a</webElementGuid>
+      <value>q7</value>
+      <webElementGuid>527dbe54-e3b2-4c90-a1be-8f07cf1b7745</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>class</name>
       <type>Main</type>
-      <value>username</value>
-      <webElementGuid>0a2879c1-8067-47a2-96ee-a92809e28a2f</webElementGuid>
+      <value>form-control input-custom</value>
+      <webElementGuid>27f6713e-6a51-4aca-9809-22e38283c3f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>3</value>
+      <webElementGuid>b1fcf393-0260-4d9c-9c89-f4e36f9897df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>name@company.com</value>
-      <webElementGuid>00eb21f5-8a1e-4a84-a7b8-00c89b344f7c</webElementGuid>
+      <value>Jelaskan secara singkat apa yang Anda capai dan bagaimana cara Anda meraihnya...</value>
+      <webElementGuid>7a3bfab3-8ed0-4b30-bb72-bdacc762d70c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5b9ce64e1b01ab27ccfccd2252edf06f</value>
-      <webElementGuid>76635f6d-b252-4508-899b-bf40bd24d80e</webElementGuid>
+      <value>md5.v1-3c127b74987ec8ec2d518e617f8f6bfc</value>
+      <webElementGuid>15386d4d-ee20-436d-a5bc-97533a2bee07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id = 'email']</value>
-      <webElementGuid>f769e3f0-0c8c-4cd1-8cb4-4da762af29b8</webElementGuid>
+      <value>//*[@name = 'q7']</value>
+      <webElementGuid>5ad2cd35-9286-462b-9c40-d8d95ae1b75d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id = 'email']</value>
-      <webElementGuid>370b2c68-0e24-4711-86bc-60ec3db054c5</webElementGuid>
+      <value>//*[@name = 'q7']</value>
+      <webElementGuid>897adb63-9ccb-4cb6-b9b5-a78ba3251512</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'email' and @type = 'email' and @name = 'email' and @placeholder = 'name@company.com']</value>
-      <webElementGuid>2a688dbc-c5a4-4789-ae38-6db2bac79cba</webElementGuid>
+      <value>//textarea[@name = 'q7' and @placeholder = 'Jelaskan secara singkat apa yang Anda capai dan bagaimana cara Anda meraihnya...']</value>
+      <webElementGuid>5b082fb0-7892-423a-acbf-e671d3845031</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
