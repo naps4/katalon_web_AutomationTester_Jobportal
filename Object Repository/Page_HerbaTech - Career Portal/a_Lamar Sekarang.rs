@@ -3,15 +3,15 @@
    <description></description>
    <name>a_Lamar Sekarang</name>
    <tag></tag>
-   <elementGuidId>87abee6e-4887-4f48-b3a1-d4c99cdfab52</elementGuidId>
+   <elementGuidId>0c69b37d-4d93-4303-b9f8-086461a03b60</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>9dbeca62-efc1-4d64-812b-5950bcaa224e</webElementGuid>
+      <webElementGuid>5a1ae16a-19b3-4b02-82cc-a024a32dee33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://127.0.0.1:8000/seeker/jobs/2/apply</value>
-      <webElementGuid>df7756bd-4a41-4cb0-a7d0-73a4f28624c0</webElementGuid>
+      <value>http://127.0.0.1:8000/seeker/jobs/11/apply</value>
+      <webElementGuid>b5a69029-81d5-4400-8c0a-246ddc1abdd4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary w-100 py-3 rounded-3 fw-bold shadow-sm mb-3</value>
-      <webElementGuid>3212f804-2982-4117-8a39-3f0c89000bb3</webElementGuid>
+      <webElementGuid>75bb70f1-311a-4c09-bece-15c685d0709b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <value>
                         Lamar Sekarang
                     </value>
-      <webElementGuid>f83eb293-d1e5-4247-b71e-dce723314d78</webElementGuid>
+      <webElementGuid>6f7b4e04-42df-4da0-8fce-b28e49ebbf0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-b980468a906289ecbca73a0eb82bac32</value>
-      <webElementGuid>552deefc-13af-40ce-bb21-6b2b1f5bedde</webElementGuid>
+      <webElementGuid>03c708cc-fb7d-47ef-86a7-1b76f402d117</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')]</value>
-      <webElementGuid>65f66efe-1b69-4392-8f47-ba8c7e8ca0c3</webElementGuid>
+      <webElementGuid>704fe802-f7ad-4260-8ebb-660a92b950b6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,18 +79,18 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-primary ')]</value>
-      <webElementGuid>47de49ed-d7a7-435c-b568-61a67e07b57d</webElementGuid>
+      <webElementGuid>99e04a39-af6a-46f1-8b85-f2211c74bcef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'http://127.0.0.1:8000/seeker/jobs/2/apply' and (text() = '
+      <value>//a[@href = 'http://127.0.0.1:8000/seeker/jobs/11/apply' and (text() = '
                         Lamar Sekarang
                     ' or . = '
                         Lamar Sekarang
                     ')]</value>
-      <webElementGuid>b7d44ccc-2509-4812-b74a-04187525938c</webElementGuid>
+      <webElementGuid>e0972b6d-eb86-467b-ba6f-935297d52ef4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

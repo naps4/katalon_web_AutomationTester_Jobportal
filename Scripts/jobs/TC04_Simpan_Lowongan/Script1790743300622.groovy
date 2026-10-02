@@ -24,19 +24,19 @@ CustomKeywords.'auth.LoginKeywords.loginEncrypted'('seeker@jobportal.test', '8SQ
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_HerbaTech - Career Portal/a_Cari Lowongan'))
+WebUI.click(findTestObject('Page_HerbaTech - Seeker/a_Cari Lowongan'))
 
-WebUI.waitForElementVisible(findTestObject('Page_HerbaTech - Career Portal/a_Detail'), 15)
+WebUI.waitForElementVisible(findTestObject('Page_HerbaTech - Seeker/a_Detail'), 15)
 
-WebUI.click(findTestObject('Page_HerbaTech - Career Portal/a_Detail'))
+WebUI.click(findTestObject('Page_HerbaTech - Seeker/a_Detail'))
 
-if (WebUI.verifyElementPresent(findTestObject('Page_HerbaTech - Career Portal/button_Simpan'), 3, FailureHandling.OPTIONAL)) {
-    WebUI.click(findTestObject('Page_HerbaTech - Career Portal/button_Simpan'))
+if (WebUI.verifyElementPresent(findTestObject('Page_HerbaTech - Seeker/button_Simpan'), 3, FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('Page_HerbaTech - Seeker/button_Simpan'))
 } else {
     WebUI.comment('Lowongan sudah tersimpan, skip klik Simpan')
 }
 
-WebUI.click(findTestObject('Page_HerbaTech - Career Portal/a_Tersimpan'))
+WebUI.click(findTestObject('Page_HerbaTech - Seeker/a_Tersimpan'))
 
 WebUI.waitForPageLoad(10)
 

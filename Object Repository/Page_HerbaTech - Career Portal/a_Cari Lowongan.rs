@@ -3,19 +3,15 @@
    <description></description>
    <name>a_Cari Lowongan</name>
    <tag></tag>
-   <elementGuidId>af2f6447-1997-4082-9067-773437df3c73</elementGuidId>
+   <elementGuidId>da5c72a5-c772-4a79-b106-57b7135ab654</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-item ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-link ')]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>.nav-item:nth-child(1) .nav-link</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@href = 'http://127.0.0.1:8000/seeker/jobs' and (text() = 'Cari Lowongan' or . = 'Cari Lowongan')]</value>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-item ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-link ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -33,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b82fac2a-d89f-4460-822e-fa97e38ff9cb</webElementGuid>
+      <webElementGuid>b0cf90cd-a00d-4775-9f5d-ba980d3cab9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -41,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link </value>
-      <webElementGuid>bc75fd48-5b6b-4663-95e4-fbbd030d336d</webElementGuid>
+      <webElementGuid>f120bdd4-3329-493e-a636-fb5157e9563f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +45,7 @@
       <name>href</name>
       <type>Main</type>
       <value>http://127.0.0.1:8000/seeker/jobs</value>
-      <webElementGuid>3c92cab4-862e-4d03-ab08-f38721a56061</webElementGuid>
+      <webElementGuid>b935b0f7-9fec-4ad7-8d86-b584458c6c04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Cari Lowongan</value>
-      <webElementGuid>3086e556-388f-4ea8-abfd-e38c9b5a0a4b</webElementGuid>
+      <webElementGuid>9c45a29f-8ede-4e19-8f88-666e1a328566</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +61,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-7dea308eb878646e662f25f4e9375ef7</value>
-      <webElementGuid>fe8070f3-1373-4c02-b19f-bcd54c538b8d</webElementGuid>
+      <webElementGuid>1dbfb64a-a3ce-42cb-9c8e-7ed978b9f6db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -73,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-item ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-link ')]</value>
-      <webElementGuid>e8a89961-14eb-4897-aa32-ae9ceb945732</webElementGuid>
+      <webElementGuid>b660e79e-b505-45da-a579-fecd6ecb01d7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-item ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-link ')]</value>
-      <webElementGuid>04f513ba-30cf-45d5-831a-405ac40cf4e9</webElementGuid>
+      <webElementGuid>8b8c5b62-fbcc-485b-b660-b9e2921132f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'http://127.0.0.1:8000/seeker/jobs' and (text() = 'Cari Lowongan' or . = 'Cari Lowongan')]</value>
-      <webElementGuid>6594ca98-7d21-4577-b7be-ff4a66ae0dfc</webElementGuid>
+      <webElementGuid>97aaf674-a206-4510-8594-768e778a5b26</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

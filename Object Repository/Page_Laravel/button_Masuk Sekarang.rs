@@ -3,23 +3,15 @@
    <description></description>
    <name>button_Masuk Sekarang</name>
    <tag></tag>
-   <elementGuidId>f2ae4855-64b8-4746-b318-5c1c953e1044</elementGuidId>
+   <elementGuidId>575c0bbb-a265-4904-b306-ed959c97039e</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>.btn</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -37,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f9a4356e-d1ab-462e-ae33-bf2a54ff9c10</webElementGuid>
+      <webElementGuid>2e313147-33e8-4a0b-b334-3f35af5564ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>9bbe8416-09c5-4f70-93c1-c64d2a31e593</webElementGuid>
+      <webElementGuid>1e0df454-6aaa-430a-be22-a69472a16fdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +45,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary btn-lg shadow-sm</value>
-      <webElementGuid>0f313141-9c0c-48ce-b51c-d6835a0ada54</webElementGuid>
+      <webElementGuid>88e78cd9-a9c1-4bae-ab9f-750fc3cd6eb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +55,7 @@
       <value>
                 Masuk Sekarang 
             </value>
-      <webElementGuid>44ecc059-7369-41a7-bc9a-534d85cc5c77</webElementGuid>
+      <webElementGuid>7c3e5e10-49ea-4ebf-93e3-68d4a4278df1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +63,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-5889e8f4ab8798d244ecbbc51aa6e324</value>
-      <webElementGuid>c37416f9-f60d-4fbc-8051-33209e8215dd</webElementGuid>
+      <webElementGuid>ae7b4e5b-a11b-41ea-a4c1-11f2c0b76bd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>83e257d6-cdc9-46ce-a096-d070b1729334</webElementGuid>
+      <webElementGuid>f9fb5bb3-8ff1-4964-8b52-3feed145023d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>3f9c3026-70ab-4730-a496-87760f067de3</webElementGuid>
+      <webElementGuid>8f32823f-e58f-4439-9ee4-776b22e9a6be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +91,6 @@
             ' or . = '
                 Masuk Sekarang 
             ')]</value>
-      <webElementGuid>cfe97a20-4bd7-4189-8f7b-85ca1f3bffc7</webElementGuid>
+      <webElementGuid>38bf46fe-a2ee-4bf4-a616-00e9d34ae762</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

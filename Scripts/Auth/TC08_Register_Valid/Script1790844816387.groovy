@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 
 // Email unik tiap kali dijalankan, contoh: qa.20261001153045@example.com
 String stamp = new SimpleDateFormat('yyyyMMddHHmmss').format(new Date())
-String emailBaru = "qa.${stamp}@example.com"
+String emailBaru = "herbatech.${stamp}@example.com"
 
 TestObject inputNama = new TestObject('inputNama')
 inputNama.addProperty('xpath', ConditionType.EQUALS, "//input[@name='name']")
