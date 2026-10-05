@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Masukan password Anda</name>
+   <name>input_Jumlah Orang _</name>
    <tag></tag>
-   <elementGuidId>137547b2-496e-4977-a18b-41789b1300fb</elementGuidId>
+   <elementGuidId>9c6cf8ea-509d-410e-aaf0-520cc4bc6cda</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'password']</value>
+         <value>//*[@id = 'vacancy']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#password</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'password' and @type = 'password' and @name = 'password' and @placeholder = 'Masukan password Anda']</value>
+         <value>#vacancy</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Masukan password Anda&quot;i]</value>
+         <value>internal:label=&quot;Jumlah Orang *&quot;i</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -33,15 +29,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0b9fe199-f668-431d-b080-f9bfc150b654</webElementGuid>
+      <webElementGuid>d248f010-e18e-44dc-8a6e-3203a739a556</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>d2813502-d948-4fa7-b990-5ea379dd7700</webElementGuid>
+      <value>number</value>
+      <webElementGuid>18659ae9-d618-491f-a8c1-b71c9b70d174</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,70 +45,70 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control </value>
-      <webElementGuid>c595b0ef-2b6e-49aa-9212-5bdfddf80a2f</webElementGuid>
+      <webElementGuid>4fe2bcdf-cc57-4dff-bba8-c0ca0b979a93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>3fe17bfe-a87e-4956-b709-46c972ce50bd</webElementGuid>
+      <value>vacancy</value>
+      <webElementGuid>d0f45ec8-3985-40a3-a2bc-68cb9073d911</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>167c4766-ea93-486c-8dbe-79020641b8ad</webElementGuid>
+      <value>vacancy</value>
+      <webElementGuid>9a90a3fb-8410-44fa-b03b-e40b149476eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>value</name>
       <type>Main</type>
-      <value>current-password</value>
-      <webElementGuid>e88a5ba4-ac0b-4598-a219-99fa89d8c312</webElementGuid>
+      <value>1</value>
+      <webElementGuid>d67cdf8d-4da7-408a-9882-4b866e8bedb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
+      <name>min</name>
       <type>Main</type>
-      <value>Masukan password Anda</value>
-      <webElementGuid>0a123ee8-ceba-4298-8a1a-ccc7a232bf72</webElementGuid>
+      <value>1</value>
+      <webElementGuid>68550172-0607-43ec-afca-fa8d2662732c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-9e9af563cb0d5d92f852b4749a4d17cd</value>
-      <webElementGuid>c5d746ea-e2ea-4ed0-ac28-2e14641095ec</webElementGuid>
+      <value>md5.v1-0978b609a5c6eb50260970bdf31f8e22</value>
+      <webElementGuid>05010072-1f02-4753-82cb-9f32e0aefc51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id = 'password']</value>
-      <webElementGuid>4f0dd640-0b76-441b-83b9-c2000b62e08f</webElementGuid>
+      <value>//*[@id = 'vacancy']</value>
+      <webElementGuid>21788313-adaa-4c70-8fc4-d5c900198763</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id = 'password']</value>
-      <webElementGuid>a508cbc3-e1f2-46da-80ad-18c4a5ca8553</webElementGuid>
+      <value>//*[@id = 'vacancy']</value>
+      <webElementGuid>73a73bfd-3f96-4287-a6c3-78e26fe97a5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'password' and @type = 'password' and @name = 'password' and @placeholder = 'Masukan password Anda']</value>
-      <webElementGuid>4214f11f-1b83-4f4e-8e15-bc73a169a1aa</webElementGuid>
+      <value>//input[@type = 'number' and @id = 'vacancy' and @name = 'vacancy']</value>
+      <webElementGuid>ffca91ed-2a1e-4f6b-a353-d1eda0441bf9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

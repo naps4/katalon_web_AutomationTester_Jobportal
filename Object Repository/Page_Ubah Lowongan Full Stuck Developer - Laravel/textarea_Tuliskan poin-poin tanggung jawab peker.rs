@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Masukan password Anda</name>
+   <name>textarea_Tuliskan poin-poin tanggung jawab peker</name>
    <tag></tag>
-   <elementGuidId>137547b2-496e-4977-a18b-41789b1300fb</elementGuidId>
+   <elementGuidId>c7740868-cc45-4b59-9c9c-97e599dec94c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id = 'password']</value>
+         <value>//*[@id = 'responsibilities']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#password</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'password' and @type = 'password' and @name = 'password' and @placeholder = 'Masukan password Anda']</value>
+         <value>#responsibilities</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:attr=[placeholder=&quot;Masukan password Anda&quot;i]</value>
+         <value>internal:attr=[placeholder=&quot;Tuliskan poin-poin tanggung jawab pekerjaan...&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -32,87 +28,79 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>0b9fe199-f668-431d-b080-f9bfc150b654</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>password</value>
-      <webElementGuid>d2813502-d948-4fa7-b990-5ea379dd7700</webElementGuid>
+      <value>textarea</value>
+      <webElementGuid>2b3cab30-6d92-419b-bdd9-2f2ffd9d1fe6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control </value>
-      <webElementGuid>c595b0ef-2b6e-49aa-9212-5bdfddf80a2f</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>df9715b5-470b-4c30-9202-e59fdf97daee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>3fe17bfe-a87e-4956-b709-46c972ce50bd</webElementGuid>
+      <value>responsibilities</value>
+      <webElementGuid>04ec272d-1ece-438c-97b8-b178304e4f66</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>167c4766-ea93-486c-8dbe-79020641b8ad</webElementGuid>
+      <value>responsibilities</value>
+      <webElementGuid>8a4d4bd9-bb2f-4fd4-87f8-20e878cbe1b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>rows</name>
       <type>Main</type>
-      <value>current-password</value>
-      <webElementGuid>e88a5ba4-ac0b-4598-a219-99fa89d8c312</webElementGuid>
+      <value>5</value>
+      <webElementGuid>efa0c914-038f-430f-adac-566b356ace9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Masukan password Anda</value>
-      <webElementGuid>0a123ee8-ceba-4298-8a1a-ccc7a232bf72</webElementGuid>
+      <value>Tuliskan poin-poin tanggung jawab pekerjaan...</value>
+      <webElementGuid>08997d4a-5ac9-4764-8ccd-ed0cbe1914cf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-9e9af563cb0d5d92f852b4749a4d17cd</value>
-      <webElementGuid>c5d746ea-e2ea-4ed0-ac28-2e14641095ec</webElementGuid>
+      <value>md5.v1-3bac6c989b696e35adda952b2c62089e</value>
+      <webElementGuid>d5a0f347-9ba6-49d0-833d-902a6cf123a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id = 'password']</value>
-      <webElementGuid>4f0dd640-0b76-441b-83b9-c2000b62e08f</webElementGuid>
+      <value>//*[@id = 'responsibilities']</value>
+      <webElementGuid>ecd1f27a-9422-4672-b5d5-a438f5def4c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@id = 'password']</value>
-      <webElementGuid>a508cbc3-e1f2-46da-80ad-18c4a5ca8553</webElementGuid>
+      <value>//*[@id = 'responsibilities']</value>
+      <webElementGuid>97632290-0da4-4b84-9f39-d49990964015</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'password' and @type = 'password' and @name = 'password' and @placeholder = 'Masukan password Anda']</value>
-      <webElementGuid>4214f11f-1b83-4f4e-8e15-bc73a169a1aa</webElementGuid>
+      <value>//textarea[@id = 'responsibilities' and @name = 'responsibilities' and @placeholder = 'Tuliskan poin-poin tanggung jawab pekerjaan...']</value>
+      <webElementGuid>2e976198-5479-4bb8-8fc8-76f39c12fbc3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Masuk Sekarang</name>
+   <name>a_Edit</name>
    <tag></tag>
-   <elementGuidId>575c0bbb-a265-4904-b306-ed959c97039e</elementGuidId>
+   <elementGuidId>66c95b0c-9451-4eb1-a805-8edd438dea91</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
+         <value>/html/body/div[2]/div/div[2]/div[1]/div/table/tbody/tr[1]/td[5]/div/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.btn</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
+         <value>.job-row:nth-child(1) [title=&quot;Edit&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Masuk Sekarang &quot;i]</value>
+         <value>internal:role=row[name=&quot;Full Stuck Developer  IT  2 days ago Engineering Full time 0 Pelamar Aktif   &quot;i] >> internal:attr=[title=&quot;Edit&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -36,69 +28,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>9a097567-880c-49ac-8d46-885f5aee325b</webElementGuid>
+      <value>a</value>
+      <webElementGuid>3336b08e-4a0b-4fc5-8773-9063d75fd8bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>4dd69a04-c1c6-4b20-b9f1-ce492c737a49</webElementGuid>
+      <value>http://127.0.0.1:8000/company/jobs/11/edit</value>
+      <webElementGuid>ef80bcbc-9605-4330-b1ef-f35b091281d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-lg shadow-sm</value>
-      <webElementGuid>0ffeb669-95d5-4d16-9eba-e8a762d8fa86</webElementGuid>
+      <value>btn-action</value>
+      <webElementGuid>40723420-050a-4bcb-bb58-b18aab83c033</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>title</name>
       <type>Main</type>
-      <value>
-                Masuk Sekarang 
-            </value>
-      <webElementGuid>468cc44b-b7b4-4c51-bfe0-c1996fcc972b</webElementGuid>
+      <value>Edit</value>
+      <webElementGuid>d50978d9-f789-482a-8ea8-b7117025552d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5889e8f4ab8798d244ecbbc51aa6e324</value>
-      <webElementGuid>c2ba8aec-70b2-442d-96a2-48c898c97a7a</webElementGuid>
+      <value>md5.v1-1ab34a23be65fbf45e672a000620551a</value>
+      <webElementGuid>43864a17-72a1-45bb-88a2-510f5d8da78a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>9f195f20-c27f-4150-bfca-367a16b98c4d</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' job-row ') and (position() = 1)]//*[@title = 'Edit']</value>
+      <webElementGuid>af687f7e-36fd-4d14-9ff7-c16d03b143a2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>c5cb41b8-6e18-4cf5-957b-122551046bf0</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' job-row ') and (position() = 1)]//*[@title = 'Edit']</value>
+      <webElementGuid>f04af056-7270-4451-8619-d48f383d5fcb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
-      <webElementGuid>1133bdc5-3334-4d30-9195-de38b0d66c71</webElementGuid>
+      <value>//a[@href = 'http://127.0.0.1:8000/company/jobs/11/edit' and @title = 'Edit']</value>
+      <webElementGuid>4f253338-9e50-4790-9d24-8c857763c2aa</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

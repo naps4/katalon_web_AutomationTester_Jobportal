@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Masuk Sekarang</name>
+   <name>input_salary_max</name>
    <tag></tag>
-   <elementGuidId>575c0bbb-a265-4904-b306-ed959c97039e</elementGuidId>
+   <elementGuidId>48434632-1078-4696-be97-743b7cd6b445</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
+         <value>//*[@name = 'salary_max']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.btn</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
+         <value>[name=&quot;salary_max&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Masuk Sekarang &quot;i]</value>
+         <value>input[name=&quot;salary_max&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -36,69 +28,71 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>9a097567-880c-49ac-8d46-885f5aee325b</webElementGuid>
+      <value>input</value>
+      <webElementGuid>5ae0e6b3-c401-4bc8-8458-427c92cd1e51</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>4dd69a04-c1c6-4b20-b9f1-ce492c737a49</webElementGuid>
+      <value>number</value>
+      <webElementGuid>5d225d94-593c-4f3d-b008-9494247fddc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-lg shadow-sm</value>
-      <webElementGuid>0ffeb669-95d5-4d16-9eba-e8a762d8fa86</webElementGuid>
+      <value>form-control</value>
+      <webElementGuid>de57c629-b767-4361-95be-bfa485b482ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>name</name>
       <type>Main</type>
-      <value>
-                Masuk Sekarang 
-            </value>
-      <webElementGuid>468cc44b-b7b4-4c51-bfe0-c1996fcc972b</webElementGuid>
+      <value>salary_max</value>
+      <webElementGuid>816021b5-c92f-4837-928f-134b65e84ff2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>3989</value>
+      <webElementGuid>06bb0563-87e7-4ce5-8f44-4c3eb6d113f6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5889e8f4ab8798d244ecbbc51aa6e324</value>
-      <webElementGuid>c2ba8aec-70b2-442d-96a2-48c898c97a7a</webElementGuid>
+      <value>md5.v1-4c7398b24223be92f258753934383225</value>
+      <webElementGuid>f354e17b-01d2-4741-acc5-2a697fcc6c34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>9f195f20-c27f-4150-bfca-367a16b98c4d</webElementGuid>
+      <value>//*[@name = 'salary_max']</value>
+      <webElementGuid>fd7857a2-a3ce-4097-809c-4a783e4fe36f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>c5cb41b8-6e18-4cf5-957b-122551046bf0</webElementGuid>
+      <value>//*[@name = 'salary_max']</value>
+      <webElementGuid>7a9f0353-42f9-4fd5-b777-c0aa5eba4857</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
-      <webElementGuid>1133bdc5-3334-4d30-9195-de38b0d66c71</webElementGuid>
+      <value>//input[@type = 'number' and @name = 'salary_max']</value>
+      <webElementGuid>e412662f-4398-4ba2-8f1f-2e24f23236f4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

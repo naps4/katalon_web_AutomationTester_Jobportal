@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Masuk Sekarang</name>
+   <name>a_Kelola Lowongan</name>
    <tag></tag>
-   <elementGuidId>575c0bbb-a265-4904-b306-ed959c97039e</elementGuidId>
+   <elementGuidId>d27c648b-7b55-48c3-8827-7d9c721ef610</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-item ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-link ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>.btn</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
+         <value>.nav-item:nth-child(3) .nav-link</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>internal:role=button[name=&quot;Masuk Sekarang &quot;i]</value>
+         <value>internal:role=link[name=&quot; Kelola Lowongan&quot;i]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -36,24 +28,24 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>9a097567-880c-49ac-8d46-885f5aee325b</webElementGuid>
+      <value>a</value>
+      <webElementGuid>3bd537a0-0d8c-47af-9c56-82fbf0a1208a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>href</name>
       <type>Main</type>
-      <value>submit</value>
-      <webElementGuid>4dd69a04-c1c6-4b20-b9f1-ce492c737a49</webElementGuid>
+      <value>http://127.0.0.1:8000/company/jobs</value>
+      <webElementGuid>a0a7ee99-6c9f-4f69-9a8b-fdb2ef375792</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary btn-lg shadow-sm</value>
-      <webElementGuid>0ffeb669-95d5-4d16-9eba-e8a762d8fa86</webElementGuid>
+      <value>nav-link </value>
+      <webElementGuid>902784ce-dcd7-4f38-975f-8fd5f6fffb76</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -61,44 +53,44 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                Masuk Sekarang 
-            </value>
-      <webElementGuid>468cc44b-b7b4-4c51-bfe0-c1996fcc972b</webElementGuid>
+                     Kelola Lowongan
+                </value>
+      <webElementGuid>e8ecbdf2-cc98-4329-87bd-a0d5b2d6ee27</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>parent</name>
       <type>Main</type>
-      <value>md5.v1-5889e8f4ab8798d244ecbbc51aa6e324</value>
-      <webElementGuid>c2ba8aec-70b2-442d-96a2-48c898c97a7a</webElementGuid>
+      <value>md5.v1-6485ef1c9fe73f28ee885e932868d2cc</value>
+      <webElementGuid>2eb66ca7-7d9e-4785-9e01-5d02a630a3d8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>9f195f20-c27f-4150-bfca-367a16b98c4d</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-item ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-link ')]</value>
+      <webElementGuid>5c4949c9-b333-4543-aa37-0912593dab7d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn ')]</value>
-      <webElementGuid>c5cb41b8-6e18-4cf5-957b-122551046bf0</webElementGuid>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-item ') and (position() = 3)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' nav-link ')]</value>
+      <webElementGuid>bb5a64a8-721d-452c-816e-2b2ae1c925b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = '
-                Masuk Sekarang 
-            ' or . = '
-                Masuk Sekarang 
-            ')]</value>
-      <webElementGuid>1133bdc5-3334-4d30-9195-de38b0d66c71</webElementGuid>
+      <value>//a[@href = 'http://127.0.0.1:8000/company/jobs' and (text() = '
+                     Kelola Lowongan
+                ' or . = '
+                     Kelola Lowongan
+                ')]</value>
+      <webElementGuid>5f6347cf-fd14-486e-bcb2-2b1fce78b39c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
